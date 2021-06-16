@@ -5,7 +5,7 @@ And I extend the snake game with some features for it.
 Take a look at this picture which is beginning game.
 
 # Picture Of Game
-<img src="Snake_Game.png">
+<img src="snake_game.png">
 
 # Source Code Files Details
 * main.cpp >>> contain run the game method after create frames, then include renderer and controller objects.

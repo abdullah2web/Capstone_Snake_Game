@@ -4,11 +4,11 @@
 #include <vector>
 #include "SDL.h"
 
-class Snake {
+class Python {
  public:
   enum class Direction { kUp, kDown, kLeft, kRight };
 
-  Snake(int grid_width, int grid_height)
+  Python(int grid_width, int grid_height)
       : grid_width(grid_width),
         grid_height(grid_height),
         head_x(grid_width / 2),
@@ -17,9 +17,9 @@ class Snake {
   void Update();
 
   void GrowBody();
-  bool SnakeCell(int x, int y);
+  bool PythonCell(int x, int y);
 
-  Direction direction = Direction::kUp;
+  Direction direction = Direction::kRight;
 
   float speed{0.1f};
   int size{1};

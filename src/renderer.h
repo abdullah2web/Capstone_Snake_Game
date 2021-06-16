@@ -11,7 +11,7 @@ class Renderer {
            const std::size_t grid_width, const std::size_t grid_height);
   ~Renderer();
 
-  void Render(Snake const snake, SDL_Point const &food);
+  void Render(Python const python, SDL_Point const &apple);
   void UpdateWindowTitle(int score, int fps);
 
  private:

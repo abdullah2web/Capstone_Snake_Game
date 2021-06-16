@@ -16,8 +16,8 @@ class Game {
   int GetSize() const;
 
  private:
-  Snake snake;
-  SDL_Point food;
+  Python python;
+  SDL_Point apple;
 
   std::random_device dev;
   std::mt19937 engine;
@@ -26,7 +26,7 @@ class Game {
 
   int score{0};
 
-  void PlaceFood();
+  void PlaceApple();
   void Update();
 };
 
