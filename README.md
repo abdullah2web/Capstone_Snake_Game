@@ -4,7 +4,7 @@ This is C++ application `capstone project` I clone it from [Udacity](https://git
 And I extend the snake game with some features for it.
 Take a look at this picture which is beginning game.
 
-# Picture Of Game
+## Picture Of Game
 <img src="Snake_Game.png">
 
 # Source Code Files Details
@@ -33,11 +33,11 @@ Take a look at this picture which is beginning game.
 In this project, I extend this snake game with some features, To build and run the application,
 first make the steps bellow:
 
-# Build and Run Project
+## Build and Run Project
 1. Clone this repo.
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
 
-# conclusion
+## conclusion
 This project let us know how to create C++ application with best structure and create modern models and high secure, use and control memory with best way.
